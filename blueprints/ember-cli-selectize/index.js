@@ -8,6 +8,6 @@ module.exports = {
   },
 
   afterInstall: function() {
-    return this.addBowerPackageToProject('selectize', 'miguelcobain/selectize.js#master');
+    return this.addBowerPackageToProject('selectize', 'selectize/selectize.js#master');
   }
 };
